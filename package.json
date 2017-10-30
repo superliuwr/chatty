@@ -1,0 +1,27 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "A Whatsapp clone using React Native and Apollo",
+  "main": "index.js",
+  "repository": "git@github.com:superliuwr/chatty.git",
+  "author": "Marvin Liu <superliuwr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch server --watch package.json server/index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
