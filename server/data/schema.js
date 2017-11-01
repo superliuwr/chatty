@@ -26,7 +26,7 @@ export const Schema = [`
   }
 
   type Query {
-    user(email: String, it: Int): User
+    user(email: String, id: Int): User
 
     messages(groupId: Int, userId: Int): [Message]
 
