@@ -9,9 +9,14 @@
 	"dependencies": {
 		"apollo-client": "^1.0.0",
 		"graphql-tag": "^2.5.0",
+		"lodash": "^4.17.4",
+		"moment": "^2.19.1",
+		"prop-types": "^15.6.0",
+		"randomcolor": "^0.5.3",
 		"react": "16.0.0-beta.5",
 		"react-apollo": "^2.0.0",
 		"react-native": "0.49.5",
+		"react-navigation": "^1.0.0-beta.15",
 		"react-redux": "^5.0.6",
 		"redux": "^3.7.2",
 		"redux-devtools-extension": "^2.13.2"
